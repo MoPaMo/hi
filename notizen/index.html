@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/svg+xml" href="./logo.svg">
+
+  <meta charset="utf-8" />
+  <title>Notizen</title>
+  <link rel="stylesheet" href="tailwind.css" />
+</head>
+
+<body class="dark:bg-gray-700 dark:text-white">
+  <header class=" sticky top-0">
+    <nav class=" flex items-center justify-between p-6 container mx-auto bg-gray-200 rounded ">
+      <!-- Logo -->
+      <div class="h-10 w-10">Notizen</div>
+      
+    </nav>
+  </header>
+  <div ><a href="../../index.html"><i class="fas fa-arrow-left"></i>Zurück zum Homemenü</a></div>
+  <main
+    class="container divide-x divide-blue-500 text-center dark:bg-gray-700  p-6 grid grid-cols-3 sm:grid-cols-6  gap-4 h-full"
+    style="max-height: 100vh;">
+    <!---->
+    <aside class="flex flex-col overflow-y-scroll h-full dark:text-white">
+      <a href="#" id="new"
+        class="rounded block px-4 py-2 text-sm dark:text-white text-gray-900 hover:bg-gray-200 dark:hover:bg-gray-600 duration-700 hover:text-gray-900 dark:hover:text-white"
+        role="menuitem"><i class="fas fa-calendar-plus"></i> Neue Notiz</a>
+    </aside>
+    <section id="main-c" class="sm:col-span-5 col-span-2 overflow-y-auto px-2 sm:px-8 h-full text-left">
+      <div class=" h-64 w-full content-center">
+        <span class="align-middle">Wähle eine Notiz links aus…</span>
+      </div>
+      <noscript>
+        DIESE SEITE FUNKTIONIERT NUR MIT JAVASCRIPT! BITTE SCHALTE JAVASCRIPT IN DEN EINSTELLUNGEN DEINES BROWSERS AN
+        ODER WECHSLE DEN BROWSER!
+      </noscript>
+    </section>
+  </main>
+  <script src="../cdn/all.min.js"></script>
+  <script src="../cdn/jquery.min.js"></script>
+  <script src="../cdn/sanitize.js"></script>
+  <script src="./marked.min.js"></script>
+  <script src="../cdn/moment.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
