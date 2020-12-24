@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc>
+    <about>
+        <name>All In Mediation</name>
+        <author>Schemecolor</author>
+        <date>12-5-2020</date>
+    </about>
+    <scheme>
+        <color name="Light Salmon Pink" value="#FAA4A4"/>
+        <color name="Spanish Pink" value="#F8BCBC"/>
+        <color name="Linen" value="#FEECE5"/>
+        <color name="Medium Spring Bud" value="#D0D194"/>
+        <color name="Dark Khaki" value="#AFB56B"/>
+        <color name="Light Taupe" value="#B3876F"/>
+    </scheme>
+</doc>

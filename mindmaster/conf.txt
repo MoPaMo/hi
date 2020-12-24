@@ -1,0 +1,16 @@
+module.exports = {
+  purge: [],
+  darkMode: 'class', // or 'media' or 'class'
+  theme: {
+    colors:{
+      lpink:'#FAA4A4',
+      spink:'#F8BCBC',
+      linen:'#FEECE5',
+      bud:'#D0D194',
+      khaki:'#AFB56B'
+    },
+    extend: {},
+  },
+  variants: {},
+  plugins: [],
+}
