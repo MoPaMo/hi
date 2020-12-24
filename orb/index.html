@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/svg+xml" href="./orb.svg">
+  <title>Orb</title>
+
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="../cdn/jquery.min.js" defer></script>
+
+  <!-- import the webpage's javascript file -->
+  <script src="script.js" defer></script>
+  <script src="../cdn/scroll.js" defer></script>
+  <script src="../cdn/all.min.js"></script>
+  <script src="../cdn/moment.js"></script>
+</head>
+
+<body>
+  <nav>
+    <span>
+      <a href="../../index.html" style="color:white;text-decoration:none"><span class="fas fa-arrow-left"></span>Zurück
+        zum Homescreen</a>
+    </span>
+    <span class="time-clock">Laden…</span> <span class="nav-vol"><i class="fas fa-volume-mute"></i></span>
+  </nav>
+  <div class="chat-main">
+    <br /><br />
+
+    <div>
+      <span class="speech-bubble bot" id="quest">
+        <i class="fas fa-question-circle"></i>
+      </span>
+    </div>
+  </div>
+  <div class="bar">
+    <input id="input" autofocus type="text" />
+  </div>
+</body>
+
+</html>

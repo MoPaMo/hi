@@ -1,0 +1,80 @@
+/* CSS files add styling rules to your content */
+body {
+  background-image: linear-gradient(to left, DarkSlateGray, #07222c);
+  margin: 0px;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+img {
+  width: 2rem;
+}
+.chat-main {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 85vh;
+  padding: 8px;
+  padding-top: 1vw;
+}
+.chat-main div {
+  width: 100%;
+}
+.speech-bubble {
+  background-color: #0000000f;
+  opacity: 1;
+  color: white;
+  border-radius: 1vw;
+  padding: 1vw;
+  max-width:80vw;
+  margin-top:1vw;
+}
+.speech-bubble a{
+  color:white
+}
+.user {
+  float: right;
+}
+.bot {
+  float: left;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  transition-duration: 0.5s;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 96vw;
+  background-color: black;
+  margin: 0px;
+  padding: 0.35vw;
+  opacity: 0.2;
+  color: white;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.bar {
+  height: 10vh;
+  padding-left: 2vh;
+}
+.bar input {
+  background-color: #ffffff00;
+  width: 80%;
+  padding: 1vw;
+  color: white;
+  border-radius: 1vw;
+  border: 0px solid white;
+  border-bottom: 0.1rem solid white;
+  transition-duration: 0.5s;
+  font-size: 1rem;
+}
+.bar input:hover,
+.bar input:focus {
+  background-color: #ffffff0f;
+}
